@@ -109,7 +109,7 @@
         console.dir(aaa);
      };
      a();
-
+     //TODO:待确定
      /* 
         1、a函数被创建，保存作用域链到内部属性[[scope]]
 
@@ -121,7 +121,7 @@
 
         ECStack=[
             aContext,
-            globalContext.VO
+            globalContext
         ]
 
         3、a函数并不立刻执行，做准备工作，复制函数a的[[scope]]属性创建作用域链
